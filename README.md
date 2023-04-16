@@ -21,7 +21,8 @@ Then the user is able to enter notes and save them.
 
 The user is also able to delete there note history as well.
 
-![Delete Image](localhost_3000_notes%20(1).png)
+![Delete Images](localhost_3000_notes%20(2).png)
+
 
 ## Credits
 
