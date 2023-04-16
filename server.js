@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
+// Set up the Express app to handle data parsing
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', apiRoutes);
