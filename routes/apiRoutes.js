@@ -4,7 +4,7 @@ const fs = require('fs');
 const { v4: uuidv4 } = require("uuid");
 const { readFromFile, writeToFIle, readAndAppend } = require('../helpers/fsUtils');
 
-
+//  GET Route for retrieving all of the data.
 router.get('/notes', (req, res) => {
     fs.readFile("./db/db.json", 'utf8', (err, data) => {
         if(data) {
