@@ -7,7 +7,7 @@ const apiRoutes = require('./routes/apiRoutes.js');
 const htmlRoutes = require('./routes/htmlRoutes.js');
 
 const PORT = process.env.PORT || 3000;
-
+// Initialize an instance of Express.js
 const app = express();
 
 // Set up the Express app to handle data parsing
