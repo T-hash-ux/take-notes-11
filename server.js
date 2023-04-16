@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 // Set up the Express app to handle data parsing
+// This is also wher the Middleware for parsing JSON and urlencoded form data.
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', apiRoutes);
