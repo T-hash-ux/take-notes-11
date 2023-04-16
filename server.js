@@ -5,7 +5,7 @@ const path = require('path');
 // Imported my routers for my apiRoutes and htmlRoutes
 const apiRoutes = require('./routes/apiRoutes.js');
 const htmlRoutes = require('./routes/htmlRoutes.js');
-
+// Specifying which port the Expree.js server will run
 const PORT = process.env.PORT || 3000;
 // Initialize an instance of Express.js
 const app = express();
