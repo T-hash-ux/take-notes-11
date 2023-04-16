@@ -20,6 +20,7 @@ router.get('/notes', (req, res) => {
     });
 });
 
+// POST Route for submitting the notes.
 router.post('/notes', (req, res) => {
     const { title, text } = req.body;
     const newNotes = { title, text, id: uuidv4() }
