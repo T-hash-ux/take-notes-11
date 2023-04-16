@@ -17,6 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
+// Static middleware pointing to the public folder.
 app.use(express.static('public'));
 
 app.listen(PORT, () => 
