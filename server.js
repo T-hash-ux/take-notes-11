@@ -1,5 +1,6 @@
 // Imported express.js
 const express = require('express');
+// Import built-in Node.js package 'path' to resolve path of files that are located on the server
 const path = require('path');
 const apiRoutes = require('./routes/apiRoutes.js');
 const htmlRoutes = require('./routes/htmlRoutes.js');
