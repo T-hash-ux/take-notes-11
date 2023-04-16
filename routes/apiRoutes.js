@@ -39,6 +39,7 @@ router.post('/notes', (req, res) => {
     });
 });
 
+// set up this delete router to delete notes.
 router.delete("/notes/:id", (req, res) => {
 
     if (req.params.id) {
